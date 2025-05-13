@@ -18,7 +18,7 @@ const MealPlans = () => {
         setPlan(null);
 
         try {
-            const res = await axios.post("http://localhost:5000/api/mealplan", {
+            const res = await axios.post("https://fitaura-devops.onrender.com/api/mealplan", {
                 goal,
                 preference,
                 weight: Number(weight),

@@ -42,7 +42,7 @@ const WorkoutPlan = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/workoutplan", {
+      const response = await axios.post("https://fitaura-devops.onrender.com/api/workoutplan", {
         goal: input.goal,
         fitnessLevel: input.level,
         equipment: equipmentName,

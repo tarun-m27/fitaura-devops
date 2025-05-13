@@ -26,7 +26,7 @@ const Symptoms = () => {
   e.preventDefault();
 
   try {
-    const response = await fetch("http://localhost:5000/api/symptoms", {
+    const response = await fetch("https://fitaura-devops.onrender.com/api/symptoms", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
